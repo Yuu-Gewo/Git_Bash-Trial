@@ -1,0 +1,122 @@
+VECINO_Maps.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML ACTIVITY</title>
+
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+
+        [class*="col-"]{
+            width: 100%;
+            float: left;
+            padding: 15px;
+        }
+
+        @media only screen and (min-width: 500px){
+            .col-s-3{width: 25%;}
+            .col-s-9{width: 75%;}
+            .col-s-12{width: 100%;}
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: green;
+            color: #ffffff;
+            box-shadow: 0 1px 3px rgb(0, 0, 0, 0.12);
+        }
+
+        .menu li:hover {
+            background-color: darkgreen;
+        }
+
+        .bottom-div {
+            background-color: transparent;
+            padding: 15px;
+            color: black;
+            font-size: 14px;
+            box-shadow: 0 1px 3px rgb(0, 0, 0, 0.12);
+            text-align: center;
+        }
+
+        @media only screen and (width <= 700px){
+        .bottom-div{
+        background-color: green;
+        color: white;
+        }
+
+        .Background-color{
+            background-color: lightblue;
+        }
+
+        }
+
+        .Background-color {
+            background-color: white;
+        }
+
+        footer {
+            position: absolute;
+           bottom: 0px;
+           width: 100%;
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="Background-color">
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <ul>
+                <li>Dashboard</li>
+                <li>Course Offers</li>
+                <li>Academe</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <h1>University of St. Lasalle</h1>
+            <hr>
+            <p>The University of St. Lasalle (USLS) is a The University of St. La Salle, a non-stock and non-profit corporation, was established in 1952 by three American Brothers under the Philippine Province of the Brothers of the Christian Schools, an international institute of religious Brothers dedicated to the human and Christian education of the young, especially the poor. </p>
+        </div>
+
+
+
+<div class="danry"></div>
+
+
+        <div class="col-3 col-s-12">
+            <div class="bottom-div">
+                <h2>Mission</h2>
+                <p>Your Mission text goes here</p>
+                <h2>Vission</h2>
+                <p>Your Vission text goes here</p>
+                <h2>Join Us</h2>
+                <p>If you find our community amazing, join us by calling 999-999-999</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.7222165714898!2d122.95995932998376!3d10.678656389508017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed10b2f7ade09%3A0x73c444aeb939e122!2sUniversity%20of%20St.%20La%20Salle!5e0!3m2!1sen!2sph!4v1693979033781!5m2!1sen!2sph" width=100% height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</footer>
+
+
+</body>
+
+
+</html>
